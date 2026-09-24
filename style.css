@@ -33,7 +33,6 @@ body{
     display: none;
     padding: 2rem;
     text-align:center ;
-    background: #166b82;
 }
 
 
@@ -46,7 +45,12 @@ body{
     color: #e86a33;
     margin-bottom:20px;
     font-size: 2.5rem; /*16 X 2.5 = 40px*/
-    background: #87f78e;
+}
+
+#start-screen p{
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
 }
 
 
@@ -119,4 +123,43 @@ body{
     height: 100%;
     width: 0%;
     transition: width 0.3s ease;
+}
+
+/* RESULT SCREEN */
+
+#result-screen h1{
+    color: #e86a33;
+    margin-bottom: 30px;
+}
+
+.result-info{
+    background-color: #f8f0e5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.result-info p{
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+#result-message{
+    color: #e86a33;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+button{
+    border: none;
+    background-color: #e86a33;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #d45b28;
 }
