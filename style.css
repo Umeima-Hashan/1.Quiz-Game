@@ -121,7 +121,7 @@ body{
 .progress{
     background-color: #e86a33;
     height: 100%;
-    width: 0%;
+    width: 50%;
     transition: width 0.3s ease;
 }
 
@@ -162,4 +162,25 @@ button{
 
 button:hover{
     background-color: #d45b28;
+}
+
+/* RESPONSIVE DESIGN */
+@media(max-width:500px){
+    #start-screen h1{
+        font-size: 2rem;
+    }
+
+    #question-text{
+        font-size: 1.3rem;
+    }
+    .answer-btn{
+        padding: 12px;
+    }
+    button{
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+        
+
+
 }
