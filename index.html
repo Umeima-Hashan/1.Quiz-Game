@@ -12,25 +12,25 @@
       <div class="screen active" id="start-screen">
         <h1>Quiz Time!</h1>
         <p>Test your knowledge with these fun questions</p>
-        <button>start Quiz</button>
+        <button id="start-btn">start Quiz</button>
       </div>
 
       <!-- Quiz Screen -->
-      <div class="screen active" id="quiz-screen">
+      <div class="screen" id="quiz-screen">
         <div class="quiz-header">
-          <h2 id="question-text">Question goes here</h2>
-          <div id="quiz-info">
+          <h2 id="question-text"></h2>
+          <div class="quiz-info">
             <p>
-              Question <span id="current-question">1</span> of <span>5</span>
+              Question <span id="current-question"></span> of <span id="total-questions"></span>
             </p>
-            <p>Score: <span id="score">0</span></p>
+            <p>Score: <span id="score"></span></p>
           </div>
         </div>
 
         <div class="answers-container" id="answers-container">
-            <button class="answer-btn correct">answer1</button>
-            <button class="answer-btn incorrect">answer2</button>
-            <button class="answer-btn ">answer3</button>
+          <button>answer 1</button>
+          <button>answer 2</button>
+          <button>answer 3</button>
         </div>
 
         <div class="progress-bar">
@@ -39,7 +39,7 @@
       </div>
 
       <!-- Result Screen -->
-      <div id="result-screen" class="screen active">
+      <div id="result-screen" class="screen">
           <h1>Quiz Results</h1>
           <div class="result-info">
             <p>
